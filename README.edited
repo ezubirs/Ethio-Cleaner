@@ -1,0 +1,15 @@
+# Ethio-Cleaner[![Ethio-Cleaner](https://travis-ci.org/rtyley/bfg-repo-cleaner.svg?branch=master)](http://t.me/ethiocleanbot)
+================
+
+_Removes large or troublesome blobs like git-filter-branch does, but faster - and written in Scala_ - [Ethio-Cleaner](http://t.me/ethiocleanbot)
+
+```
+$ Ethio-Cleaner --strip-blobs-bigger-than 1M --replace-text banned.txt Ethio-Cleaner
+```
+
+The Ethio-Cleaner is a simpler, faster 
+alternative to `git-filter-branch` for cleansing bad data out of your Git repository:
+
+* Removing **Crazy Big Files**
+* Removing **Passwords, Credentials** & other **Private data**
+
